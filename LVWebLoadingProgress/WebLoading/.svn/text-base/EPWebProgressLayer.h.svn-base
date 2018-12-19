@@ -1,0 +1,16 @@
+//
+//  EPWebProgressLayer.h
+//  tangtang
+//
+//  Created by virtue on 2017/3/3.
+//  Copyright © 2017年 pengTang. All rights reserved.
+//
+
+#import <QuartzCore/QuartzCore.h>
+
+@interface EPWebProgressLayer : CAShapeLayer
+- (void)finishedLoad;
+- (void)startLoad;
+
+- (void)closeTimer;
+@end
